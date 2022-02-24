@@ -2,9 +2,9 @@
 
 namespace JorgeMurta\LaPopo;
 
+use JorgeMurta\LaPopo\Commands\LaPopoCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JorgeMurta\LaPopo\Commands\LaPopoCommand;
 
 class LaPopoServiceProvider extends PackageServiceProvider
 {
